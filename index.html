@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拆多多 | 好市多熱門日用品、獨立包裝零食、沖泡飲品精緻分拆 | 免囤貨、不佔空間</title>
+    <style>
+        :root {
+            --primary-color: #005ea6; /* 信任藍 */
+            --accent-color: #e51a1a; /* 活力紅 */
+            --dark-color: #333333;
+            --light-color: #f8f9fa;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+        }
+
+        .btn-line {
+            background-color: #06C755; /* LINE 綠 */
+            color: #fff;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(6, 199, 85, 0.4);
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .btn-line:hover {
+            background-color: #05a647;
+            transform: translateY(-2px);
+        }
+
+        .section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            flex: 1;
+            min-width: 250px;
+            margin: 15px;
+            padding: 35px 25px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .steps {
+            background-color: var(--light-color);
+        }
+
+        .step-list {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .step-item {
+            flex: 1;
+            min-width: 250px;
+            margin: 20px;
+        }
+
+        .step-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        .cta-section {
+            background-color: #fff;
+            padding: 90px 20px;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 32px; }
+            .hero p { font-size: 16px; }
+            .features, .step-list { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">📦 拆多多 (SplitCo)</div>
+        <div>
+            <a href="https://lin.ee/T533X9L" target="_blank" class="btn-line" style="padding: 8px 20px; font-size: 14px; box-shadow: none;">加入 LINE</a>
+        </div>
+    </header>
+
+    <!-- 主視覺區 -->
+    <section class="hero">
+        <h1>好市多東西好划算，但份量多到用不完？</h1>
+        <p>交給「拆多多」，免繳千元年費！幫你把超大包衛生紙、獨立包裝日用品，以及熱門的獨立小包裝零食、沖泡飲品彈性分拆。少份量購入，生活輕鬆不佔空間！</p>
+        <a href="https://lin.ee/T533X9L" target="_blank" class="btn-line">💬 點我加入拆多多LINE官方帳號</a>
+    </section>
+
+    <!-- 核心價值與營業項目區 -->
+    <section class="section">
+        <h2 class="section-title">為什麼選擇 拆多多？</h2>
+        <div class="section-subtitle">專為小家庭、單身租屋族設計，兼顧高 CP 值與清爽空間</div>
+        <div class="features">
+            <div class="feature-card">
+                <h3>🧻 少量買、免囤貨</h3>
+                <p>不用一次買三箱衛生紙或過多的消耗品。我們幫你拆成小量、單個販售，讓房間告別擁擠雜亂。</p>
+            </div>
+            <div class="feature-card">
+                <h3>📦 原裝獨立包裝拆售</h3>
+                <p>我們僅拆分原廠即為獨立包裝的商品（如單捲衛生紙、獨立包裝日用品等），不進行液體或粉末等二次分裝，安全有保障。</p>
+            </div>
+            <div class="feature-card">
+                <h3>🍪 獨立包裝零食 自由混搭</h3>
+                <p>原廠大箱內含的獨立小包裝薯片、餅乾、沖泡飲品，皆可單包零買混搭，輕鬆享受豐富多樣的點心時光，再也不怕過期受潮。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 運作流程區 -->
+    <section class="section steps">
+        <h2 class="section-title">簡單三步驟，輕量省空間</h2>
+        <div class="section-subtitle">完全不用繁瑣註冊，所有的美好生活都在 LINE 裡搞定</div>
+        <div class="step-list">
+            <div class="step-item">
+                <div class="step-number">01</div>
+                <h3>LINE 內選購</h3>
+                <p>點擊加入我們的 LINE 官方帳號，查看每週最新上架的開團日用品、獨立包裝零食與飲品清單。</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">02</div>
+                <h3>專人拆單</h3>
+                <p>我們前往好市多採購正品，並依據原廠獨立包裝規格進行外箱拆分，確保商品乾淨、新鮮與完整。</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">03</div>
+                <h3>輕鬆取貨</h3>
+                <p>依指定時間至社區交貨點輕鬆取貨，或是透過約定方式配送，用完再買不囤積。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 引流呼籲區 -->
+    <section class="section cta-section">
+        <h2 class="section-title">告別大包裝的負擔，今天想拆點什麼？</h2>
+        <p style="max-width: 600px; margin: 0 auto 30px auto; text-align: center; color: #555;">免辦卡、免囤貨，直接點擊下方連結加入我們的 LINE 官方帳號，和鄰居朋友一起「合夥拆單」，共享好市多生活美學！</p>
+        <a href="https://lin.ee/T533X9L" target="_blank" class="btn-line">
+            💬 點我加入拆多多LINE官方帳號
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 拆多多 SplitCo. All rights reserved.</p>
+        <p style="margin: 10px 0 5px 0;">LINE ID：<b>@560jkjdm</b> | 聯絡信箱：<a href="mailto:servicewindow123@gmail.com">servicewindow123@gmail.com</a></p>
+        <p style="font-size: 11px; color: #aaa; margin-top: 15px;">聲明：本服務為獨立零售創業專案，所分拆之商品皆採購自好市多販售之正品。本公司與好市多（Costco Wholesale）官方無任何商業隸屬、代言、授權或合作關係。</p>
+    </footer>
+
+</body>
+</html>
